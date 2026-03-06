@@ -476,6 +476,24 @@ def render_app(load_result: LoadResult) -> None:
 
     _, _, subcategory_summary, _, _, _, _ = get_cached_views(load_result.data)
 
+    view = st.segmented_control(
+        "Bereich",
+        options=[
+            "Überblick",
+            "Stärken & Lücken",
+            "Risiko",
+            "Mitarbeitendenprofil",
+            "Heatmap",
+            "Empfehlungen",
+            "Details",
+        ],
+        default="Überblick",
+    )
+
+    if view == "Empfehlungen":
+        render_recommendations(recommendations_markdown)
+        return
+
     filtered_data = apply_filters(load_result.data, subcategory_summary)
     if filtered_data.empty:
         st.warning("Die aktuelle Filterkombination liefert keine gültigen Bewertungen.")
@@ -496,20 +514,6 @@ def render_app(load_result: LoadResult) -> None:
         f"Gültige Bewertungen: {load_result.metadata.row_count}"
     )
 
-    view = st.segmented_control(
-        "Bereich",
-        options=[
-            "Überblick",
-            "Stärken & Lücken",
-            "Risiko",
-            "Mitarbeitendenprofil",
-            "Heatmap",
-            "Empfehlungen",
-            "Details",
-        ],
-        default="Überblick",
-    )
-
     if view == "Überblick":
         render_overview(filtered_overview, filtered_field_summary, filtered_subcategory_summary)
     elif view == "Stärken & Lücken":
@@ -520,8 +524,6 @@ def render_app(load_result: LoadResult) -> None:
         render_employee_profile(filtered_data)
     elif view == "Heatmap":
         render_heatmap(filtered_heatmap_data)
-    elif view == "Empfehlungen":
-        render_recommendations(recommendations_markdown)
     else:
         st.subheader("Detailtabellen")
         subcategory_tab, statement_tab = st.tabs(["Unterkategorien", "Aussagen"])
