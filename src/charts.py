@@ -11,7 +11,7 @@ CHART_LABELS = {
     "kompetenzfeld": "Kompetenzfeld",
     "unterkategorie": "Unterkategorie",
     "bus_factor": "Bus-Faktor",
-    "weak_share": "Schwachanteil",
+    "weak_share": "Anteil schwacher Bewertungen",
     "expert_count": "Anzahl Expert:innen",
     "no_expert": "Ohne Expert:innen",
     "bottleneck": "Flaschenhals",
@@ -90,7 +90,7 @@ def create_risk_scatter(summary_df: pd.DataFrame, title: str) -> go.Figure:
             "Durchschnitt: %{x:.2f}<br>"
             "Bus-Faktor: %{y}<br>"
             "Anzahl Expert:innen: %{customdata[1]}<br>"
-            "Schwachanteil: %{customdata[2]:.2%}<br>"
+            "Anteil schwacher Bewertungen: %{customdata[2]:.2%}<br>"
             "Ohne Expert:innen: %{customdata[3]}<br>"
             "Flaschenhals: %{customdata[4]}<extra></extra>"
         )
