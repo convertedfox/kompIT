@@ -28,6 +28,7 @@ from src.metrics import (
 st.set_page_config(page_title=APP_TITLE, layout="wide")
 
 DEFAULT_TABLE_HEIGHT = 280
+RECOMMENDATIONS_FILE = "Empfehlungen.md"
 
 TABLE_LABELS = {
     "kompetenzfeld": "Kompetenzfeld",
@@ -57,6 +58,14 @@ PERCENT_COLUMNS = {"weak_share", "coverage_ratio"}
 @st.cache_data(show_spinner=False)
 def load_dataset(path_str: str) -> LoadResult:
     return load_assessment_data(Path(path_str), thresholds=DEFAULT_THRESHOLDS)
+
+
+@st.cache_data(show_spinner=False)
+def load_recommendations(path_str: str) -> str:
+    path = Path(path_str)
+    if not path.exists():
+        return ""
+    return path.read_text(encoding="utf-8").strip()
 
 
 @st.cache_data(show_spinner=False, max_entries=32)
@@ -431,9 +440,31 @@ def render_heatmap(heatmap_data: pd.DataFrame) -> None:
         )
 
 
+def render_recommendations(recommendations_markdown: str) -> None:
+    st.subheader("Empfehlungen")
+    with st.container(border=True):
+        if recommendations_markdown:
+            st.markdown(recommendations_markdown)
+            render_interpretation(
+                "Dieser Bereich zeigt die aktuell gepflegten Handlungsempfehlungen aus der "
+                "Datei 'Empfehlungen.md'."
+            )
+        else:
+            st.info(
+                "In 'Empfehlungen.md' ist aktuell noch kein Inhalt hinterlegt.",
+                icon=":material/info:",
+            )
+            render_interpretation(
+                "Sobald die Datei befüllt ist, werden hier Empfehlungen direkt als "
+                "Markdown angezeigt."
+            )
+
+
 def render_app(load_result: LoadResult) -> None:
     st.title(APP_TITLE)
     st.caption(DATA_NOTE)
+    recommendations_path = Path(__file__).with_name(RECOMMENDATIONS_FILE)
+    recommendations_markdown = load_recommendations(str(recommendations_path))
 
     if load_result.issues:
         with st.expander("Validierungshinweise", expanded=True):
@@ -473,6 +504,7 @@ def render_app(load_result: LoadResult) -> None:
             "Risiko",
             "Mitarbeitendenprofil",
             "Heatmap",
+            "Empfehlungen",
             "Details",
         ],
         default="Überblick",
@@ -488,11 +520,11 @@ def render_app(load_result: LoadResult) -> None:
         render_employee_profile(filtered_data)
     elif view == "Heatmap":
         render_heatmap(filtered_heatmap_data)
+    elif view == "Empfehlungen":
+        render_recommendations(recommendations_markdown)
     else:
         st.subheader("Detailtabellen")
-        subcategory_tab, statement_tab, employee_tab = st.tabs(
-            ["Unterkategorien", "Aussagen", "Mitarbeitende"]
-        )
+        subcategory_tab, statement_tab = st.tabs(["Unterkategorien", "Aussagen"])
         with subcategory_tab:
             with st.container(border=True):
                 render_table(
@@ -508,15 +540,6 @@ def render_app(load_result: LoadResult) -> None:
                     "Die Aussagen-Tabelle macht sichtbar, welche konkreten Einzelthemen einen "
                     "niedrigen Durchschnitt nach unten ziehen.",
                     height=360,
-                )
-        with employee_tab:
-            with st.container(border=True):
-                render_table(
-                    filtered_employee_summary,
-                    "Die Mitarbeitendenübersicht vergleicht das Gesamtprofil der Personen. Hohe "
-                    "Expert:innen-Anteile bei gleichzeitig vielen Schwachstellen können auf "
-                    "Spezialisierung hindeuten.",
-                    height=300,
                 )
 
 
