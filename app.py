@@ -211,7 +211,7 @@ def render_overview(
         st.metric(
             "Aussagen",
             int(overview["statement_count"]),
-            help="Anzahl der einzelnen Bewertungsfragen aus der Excel-Datei.",
+            help="Anzahl der einzelnen Bewertungsfragen aus der JSON-Datei.",
             border=True,
         )
         st.metric(
@@ -510,7 +510,7 @@ def render_app(load_result: LoadResult) -> None:
     ) = get_cached_views(filtered_data)
 
     st.caption(
-        f"Quelle: {load_result.metadata.sheet_name} | "
+        f"Quelle: {load_result.metadata.source_name} | "
         f"Gültige Bewertungen: {load_result.metadata.row_count}"
     )
 
@@ -549,7 +549,7 @@ def main() -> None:
     data_path = Path(__file__).with_name(DEFAULT_DATA_FILE)
     if not data_path.exists():
         st.error(
-            "Die Excel-Datei wurde nicht gefunden. "
+            "Die JSON-Datei wurde nicht gefunden. "
             f"Bitte lege '{DEFAULT_DATA_FILE}' im Projektroot ab."
         )
         st.stop()

@@ -1,6 +1,6 @@
 # Kompetenzanalyse IT
 
-Streamlit-Dashboard zur Auswertung von Excel-Selbsteinschätzungen für IT-Teams. Die App macht Stärken, Lücken und Wissensmonopole sichtbar, ohne einzelne Personen als Leistungsurteil zu framen.
+Streamlit-Dashboard zur Auswertung von JSON-basierten Selbsteinschätzungen für IT-Teams. Die App macht Stärken, Lücken und Wissensmonopole sichtbar, ohne einzelne Personen als Leistungsurteil zu framen.
 
 ## Installation
 
@@ -14,17 +14,23 @@ uv sync --dev
 uv run streamlit run app.py
 ```
 
-Die App erwartet die Datei `IT Kompetenz Zusammenfassung - anonymisiert.xlsx` im Projektroot.
+Die App erwartet die Datei `kompetenzdaten.json` im Projektroot.
 
-## Erwartete Excel-Struktur
+## Erwartete JSON-Struktur
 
-- Bevorzugtes Blatt: `Selbsteinschätzung`
-- Kopfzeile mit:
-  - `Kompetenzfeld`
-  - `Unterkategorie`
-  - `Aussage`
-  - danach dynamisch beliebig viele Mitarbeitenden-Spalten
-- Werte in den Mitarbeitenden-Spalten: numerische Selbsteinschätzungen von `1` bis `5`
+Die Datei enthält eine Liste von Datensätzen im Long-Format:
+
+```json
+[
+  {
+    "kompetenzfeld": "Netzwerk",
+    "unterkategorie": "Core-Switching",
+    "aussage": "Ich verstehe VLAN-Konzepte gut und kann VLANs sicher konfigurieren.",
+    "mitarbeiter": "A",
+    "score": 4
+  }
+]
+```
 
 Leere Scores werden ignoriert. Nicht numerische oder außerhalb der Skala liegende Werte werden als Warnung gemeldet und nicht ausgewertet.
 
