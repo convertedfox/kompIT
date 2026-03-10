@@ -2,21 +2,16 @@
 
 ## Einordnung
 
-Die Auswertung basiert auf Selbsteinschätzungen und ist daher als Orientierungsinstrument zu lesen, nicht als objektive Leistungsbewertung. Für Management-Entscheidungen ist sie trotzdem belastbar genug, um operative Risiken und Entwicklungsprioritäten sichtbar zu machen.
+Die Auswertung basiert auf Selbsteinschätzungen und ist daher als Orientierungsinstrument zu lesen, nicht als objektive Leistungsbewertung. Für Entscheidungen ist sie trotzdem belastbar genug, um operative Risiken und Entwicklungsprioritäten sichtbar zu machen.
 
 - Der Gesamtdurchschnitt des Teams liegt aktuell bei `3,23`.
 - `8 von 12` Unterkategorien sind mindestens doppelt abgesichert.
 - `4 von 12` Unterkategorien sind weiterhin Flaschenhälse.
 - Es gibt auf Ebene der Unterkategorien keine Themen ohne Expert:innen, aber mehrere kritische Themen hängen weiterhin operativ an nur einer Person.
 
-Die wichtigste Erkenntnis bleibt daher bestehen: Das Hauptproblem ist kein genereller Kompetenzmangel, sondern eine **ungleich verteilte Abdeckung**. Mit dem neuen Mitarbeitenden `F` ist das Team breiter geworden, aber die betriebsrelevanten Netzwerk- und Authentifizierungsthemen hängen weiterhin stark an Person `E`.
+Die wichtigste Erkenntnis bleibt daher bestehen: Das Hauptproblem ist kein genereller Kompetenzmangel, sondern eine **ungleich verteilte Abdeckung**. Viele der betriebsrelevanten Netzwerk- und Authentifizierungsthemen hängen stark an Person `E`.
 
-Gleichzeitig ist wichtig, zwei Dinge sauber zu trennen:
-
-- Die neu niedrigeren Durchschnittswerte sind teilweise ein normaler Effekt des Onboardings von `F`.
-- Die strukturellen Redundanzrisiken bestanden bereits vorher und sind weiterhin die eigentliche Management-Aufgabe.
-
-## Management-Empfehlungen
+## Empfehlungen
 
 ### 1. Abhängigkeit von Person E gezielt reduzieren
 
@@ -62,7 +57,7 @@ Besonders kritisch sind:
 - `Firewall & Routing` mit Durchschnitt `2,93`
 - `Core-Switching` mit Durchschnitt `3,00`
 
-Diese Themen sind infrastrukturell zentral. Hier sollte zuerst investiert werden, bevor weitere Optimierungen in bereits robuster abgesicherten Bereichen erfolgen.
+Diese Themen sind infrastrukturell zentral. **Hier sollte zuerst investiert werden**, bevor weitere Optimierungen in bereits robuster abgesicherten Bereichen erfolgen.
 
 **Empfehlung:**
 
@@ -91,7 +86,7 @@ Die schwächsten Einzelaussagen zeigen sehr konkret, wo die Unsicherheit im Team
 - Switchports sicher konfigurieren (`2,50`)
 - VLAN-Konfiguration (`2,67`)
 
-Besonders relevant: Beim Thema `OSPF/BGP` gibt es auf Aussageebene aktuell keine Expert:innen. Das heißt: Die Unterkategorie `Firewall & Routing` ist formal nicht unbesetzt, aber ein konkreter kritischer Baustein ist trotzdem nicht resilient abgedeckt.
+Besonders relevant: Beim Thema `OSPF/BGP` gibt es auf Aussageebene aktuell keine Expert:innen. Das heißt: Die Unterkategorie `Firewall & Routing` ist an sich nicht unbesetzt, aber ein konkreter kritischer Baustein ist trotzdem nicht resilient abgedeckt.
 
 **Empfehlung:**
 
@@ -105,7 +100,7 @@ Besonders relevant: Beim Thema `OSPF/BGP` gibt es auf Aussageebene aktuell keine
   - Was muss man selbstständig durchführen können?
   - Woran erkennt man, dass die Person arbeitsfähig ist?
 
-### 4. Webserver nicht mehr als stabilen Bereich behandeln
+### 4. Webserver nicht als stabilen Bereich behandeln
 
 `Webserver` würde ich nicht mehr als unkritischen oder stabilen Bereich einordnen:
 
@@ -136,23 +131,8 @@ Ein einheitlicher Trainingsansatz wäre ineffizient. Die Daten sprechen für unt
 - `A`: schnellster Hebel für Redundanzaufbau in kritischen Themen
 - `D`: sinnvoll für punktuelle Vertiefung, vor allem in `Authentifizierung`
 - `C`: breiter mitnehmen, aber nicht als erster Hebel für die kritischsten Themen priorisieren
-- `B`: klarer Stabilisierungskandidat, noch kein realistisch kurzfristiger Backup-Hebel
-- `F`: Onboarding-Fall, zunächst Grundlagenaufbau statt Spezialisierung
-
-**Einordnung von B:**
-
-- `B` hat aktuell den niedrigsten Gesamtscore im Team (`2,05`).
-- Besonders schwach ist `Netzwerk` mit Durchschnitt `1,66`.
-- Stabiler sind `Datenbanken` und `Skripte` mit jeweils `3,00`.
-
-Für `B` ist daher kurzfristig nicht der Aufbau von Spezialwissen in Flaschenhals-Themen sinnvoll, sondern zuerst der Schritt von "unsicher" zu "zuverlässig im Standardbetrieb".
-
-**Einordnung von F:**
-
-- `F` liegt aktuell bei einem Gesamtscore von `2,58`.
-- Das ist im Kontext eines neuen Mitarbeitenden eher als normaler Ramp-up-Stand zu lesen als als alarmierendes Signal.
-
-Für `F` sollte das Ziel zunächst breiter Grundlagenaufbau sein, nicht die kurzfristige Übernahme von Spezial- oder Single-Point-of-Failure-Themen.
+- `B`: noch kein realistisch kurzfristiger Backup-Hebel für die kritischsten Themen, sondern erst Grundlagenbetrieb sichern
+- `F`: besprechen - wo noch Grundlagenaufbau, dann später ggf. Spezialisierung
 
 ### 6. Starke Bereiche bewusst stabil halten und gezielt nutzen
 
