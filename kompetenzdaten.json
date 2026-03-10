@@ -37,6 +37,13 @@
   {
     "kompetenzfeld":"Applications \/ Serverbetrieb",
     "unterkategorie":"Authentifizierung",
+    "aussage":"Ich kann Shibboleth pflegen und betreiben.",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Authentifizierung",
     "aussage":"Ich kann ein AD-Konto pflegen und verwalten.",
     "mitarbeiter":"A",
     "score":5.0
@@ -67,6 +74,13 @@
     "unterkategorie":"Authentifizierung",
     "aussage":"Ich kann ein AD-Konto pflegen und verwalten.",
     "mitarbeiter":"E",
+    "score":5.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Authentifizierung",
+    "aussage":"Ich kann ein AD-Konto pflegen und verwalten.",
+    "mitarbeiter":"F",
     "score":5.0
   },
   {
@@ -107,6 +121,13 @@
   {
     "kompetenzfeld":"Applications \/ Serverbetrieb",
     "unterkategorie":"Authentifizierung",
+    "aussage":"Ich verstehe das Prinzip von Zertifikatsmanagement und kann es umsetzen.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Authentifizierung",
     "aussage":"Ich verstehe die Funktionsweise eines AD-Kontos.",
     "mitarbeiter":"A",
     "score":5.0
@@ -142,6 +163,13 @@
   {
     "kompetenzfeld":"Applications \/ Serverbetrieb",
     "unterkategorie":"Authentifizierung",
+    "aussage":"Ich verstehe die Funktionsweise eines AD-Kontos.",
+    "mitarbeiter":"F",
+    "score":4.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Authentifizierung",
     "aussage":"Ich verstehe die Funktionsweise von Shibboleth.",
     "mitarbeiter":"A",
     "score":2.0
@@ -176,6 +204,13 @@
   },
   {
     "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Authentifizierung",
+    "aussage":"Ich verstehe die Funktionsweise von Shibboleth.",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
     "unterkategorie":"Lokale Dateien",
     "aussage":"Ich kann typische Probleme bei lokalen Dateien selbstständig beheben (Troubleshooting).",
     "mitarbeiter":"A",
@@ -207,6 +242,13 @@
     "unterkategorie":"Lokale Dateien",
     "aussage":"Ich kann typische Probleme bei lokalen Dateien selbstständig beheben (Troubleshooting).",
     "mitarbeiter":"E",
+    "score":5.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Lokale Dateien",
+    "aussage":"Ich kann typische Probleme bei lokalen Dateien selbstständig beheben (Troubleshooting).",
+    "mitarbeiter":"F",
     "score":5.0
   },
   {
@@ -242,6 +284,13 @@
     "unterkategorie":"Lokale Dateien",
     "aussage":"Ich kenne Rechte- und Rollenkonzepte für lokale Dateien.",
     "mitarbeiter":"E",
+    "score":5.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Lokale Dateien",
+    "aussage":"Ich kenne Rechte- und Rollenkonzepte für lokale Dateien.",
+    "mitarbeiter":"F",
     "score":5.0
   },
   {
@@ -282,6 +331,13 @@
   {
     "kompetenzfeld":"Applications \/ Serverbetrieb",
     "unterkategorie":"Virenscanner",
+    "aussage":"Ich verstehe die Grundlagen der bei uns eingesetzten Virenscannerlösung.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Virenscanner",
     "aussage":"Ich weiß, worauf ich bei Kontrolle & Monitoring achten muss.",
     "mitarbeiter":"A",
     "score":5.0
@@ -315,6 +371,13 @@
     "score":5.0
   },
   {
+    "kompetenzfeld":"Applications \/ Serverbetrieb",
+    "unterkategorie":"Virenscanner",
+    "aussage":"Ich weiß, worauf ich bei Kontrolle & Monitoring achten muss.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Betriebssysteme",
     "aussage":"Ich kann Sicherheits- und Patchmanagement-Konzepte anwenden.",
@@ -348,6 +411,13 @@
     "aussage":"Ich kann Sicherheits- und Patchmanagement-Konzepte anwenden.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Betriebssysteme",
+    "aussage":"Ich kann Sicherheits- und Patchmanagement-Konzepte anwenden.",
+    "mitarbeiter":"F",
+    "score":3.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -387,6 +457,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Betriebssysteme",
+    "aussage":"Ich kenne den grundlegenden Aufbau von Linux- und Windows-Servern.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Betriebssysteme",
     "aussage":"Ich kenne wichtige Konsolenbefehle unter Linux\/Windows.",
     "mitarbeiter":"A",
     "score":4.0
@@ -418,6 +495,13 @@
     "aussage":"Ich kenne wichtige Konsolenbefehle unter Linux\/Windows.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Betriebssysteme",
+    "aussage":"Ich kenne wichtige Konsolenbefehle unter Linux\/Windows.",
+    "mitarbeiter":"F",
+    "score":3.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -457,6 +541,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Betriebssysteme",
+    "aussage":"Ich verstehe Rechte- und Rollenkonzepte unter beiden Systemen.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Betriebssysteme",
     "aussage":"Ich weiß, was ein Headless Linux-Server ist und könnte ihn managen.",
     "mitarbeiter":"A",
     "score":5.0
@@ -491,6 +582,13 @@
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Betriebssysteme",
+    "aussage":"Ich weiß, was ein Headless Linux-Server ist und könnte ihn managen.",
+    "mitarbeiter":"F",
+    "score":4.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Datenbanken",
     "aussage":"Ich kann eine Datenbank an eine Anwendung anbinden.",
     "mitarbeiter":"A",
@@ -523,6 +621,13 @@
     "aussage":"Ich kann eine Datenbank an eine Anwendung anbinden.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Datenbanken",
+    "aussage":"Ich kann eine Datenbank an eine Anwendung anbinden.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -562,6 +667,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Datenbanken",
+    "aussage":"Ich kenne grundlegende SQL-Befehle.",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Datenbanken",
     "aussage":"Ich kenne verschiedene Datenbanktypen (MSSQL, MariaDB, Postgres, Firebird).",
     "mitarbeiter":"A",
     "score":4.0
@@ -593,6 +705,13 @@
     "aussage":"Ich kenne verschiedene Datenbanktypen (MSSQL, MariaDB, Postgres, Firebird).",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Datenbanken",
+    "aussage":"Ich kenne verschiedene Datenbanktypen (MSSQL, MariaDB, Postgres, Firebird).",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -632,6 +751,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Datenbanken",
+    "aussage":"Ich verstehe Grundlagen der Datenbankplanung (Tabellen, Normalisierung).",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Datenbanken",
     "aussage":"Ich weiß, wie man Datenbanken sichert (Backup).",
     "mitarbeiter":"A",
     "score":5.0
@@ -666,6 +792,13 @@
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Datenbanken",
+    "aussage":"Ich weiß, wie man Datenbanken sichert (Backup).",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Servervirtualisierung",
     "aussage":"Ich kann Backup-Konzepte für virtuelle Server umsetzen.",
     "mitarbeiter":"A",
@@ -698,6 +831,13 @@
     "aussage":"Ich kann Backup-Konzepte für virtuelle Server umsetzen.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Servervirtualisierung",
+    "aussage":"Ich kann Backup-Konzepte für virtuelle Server umsetzen.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -737,6 +877,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Servervirtualisierung",
+    "aussage":"Ich kann Netzwerk- und VLAN-Konfigurationen für virtuelle Server durchführen.",
+    "mitarbeiter":"F",
+    "score":4.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Servervirtualisierung",
     "aussage":"Ich kann die Hardware-Allokation für virtuelle Maschinen einschätzen.",
     "mitarbeiter":"A",
     "score":5.0
@@ -768,6 +915,13 @@
     "aussage":"Ich kann die Hardware-Allokation für virtuelle Maschinen einschätzen.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Servervirtualisierung",
+    "aussage":"Ich kann die Hardware-Allokation für virtuelle Maschinen einschätzen.",
+    "mitarbeiter":"F",
+    "score":4.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -807,6 +961,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Servervirtualisierung",
+    "aussage":"Ich kenne mich mit Storage-Zuordnung und -Erweiterung aus.",
+    "mitarbeiter":"F",
+    "score":4.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Servervirtualisierung",
     "aussage":"Ich verstehe das Konzept der Virtualisierung.",
     "mitarbeiter":"A",
     "score":5.0
@@ -842,6 +1003,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Servervirtualisierung",
+    "aussage":"Ich verstehe das Konzept der Virtualisierung.",
+    "mitarbeiter":"F",
+    "score":4.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Servervirtualisierung",
     "aussage":"Ich verstehe die Funktionsweise von Hypervisoren (VMware, Hyper-V, XenServer).",
     "mitarbeiter":"A",
     "score":4.0
@@ -873,6 +1041,13 @@
     "aussage":"Ich verstehe die Funktionsweise von Hypervisoren (VMware, Hyper-V, XenServer).",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Servervirtualisierung",
+    "aussage":"Ich verstehe die Funktionsweise von Hypervisoren (VMware, Hyper-V, XenServer).",
+    "mitarbeiter":"F",
+    "score":4.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -912,6 +1087,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Skripte",
+    "aussage":"Ich habe erste Erfahrungen mit Skriptsprachen wie JavaScript, Python oder PHP.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Skripte",
     "aussage":"Ich kann einfache Bash- oder PowerShell-Skripte erstellen.",
     "mitarbeiter":"A",
     "score":5.0
@@ -946,6 +1128,13 @@
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Skripte",
+    "aussage":"Ich kann einfache Bash- oder PowerShell-Skripte erstellen.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Webserver",
     "aussage":"Ich kann Ports freigeben und Firewalleinstellungen konfigurieren.",
     "mitarbeiter":"A",
@@ -978,6 +1167,13 @@
     "aussage":"Ich kann Ports freigeben und Firewalleinstellungen konfigurieren.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Webserver",
+    "aussage":"Ich kann Ports freigeben und Firewalleinstellungen konfigurieren.",
+    "mitarbeiter":"F",
+    "score":4.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -1017,6 +1213,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Webserver",
+    "aussage":"Ich kann Webserver gegen Angriffe härten (Hardening).",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Webserver",
     "aussage":"Ich kann Webserver-Monitoring und Logging umsetzen.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1048,6 +1251,13 @@
     "aussage":"Ich kann Webserver-Monitoring und Logging umsetzen.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Webserver",
+    "aussage":"Ich kann Webserver-Monitoring und Logging umsetzen.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -1087,6 +1297,13 @@
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
     "unterkategorie":"Webserver",
+    "aussage":"Ich kenne Backup- und Patchmanagement-Konzepte.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Webserver",
     "aussage":"Ich kenne die grundlegenden Startprozesse eines Webservers.",
     "mitarbeiter":"A",
     "score":5.0
@@ -1118,6 +1335,13 @@
     "aussage":"Ich kenne die grundlegenden Startprozesse eines Webservers.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Webserver",
+    "aussage":"Ich kenne die grundlegenden Startprozesse eines Webservers.",
+    "mitarbeiter":"F",
+    "score":3.0
   },
   {
     "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
@@ -1153,6 +1377,13 @@
     "aussage":"Ich verstehe Rechte- und Zugriffskonzepte auf Webservern.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"LAMP \/ Serverinfrastruktur",
+    "unterkategorie":"Webserver",
+    "aussage":"Ich verstehe Rechte- und Zugriffskonzepte auf Webservern.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1192,6 +1423,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Core-Switching",
+    "aussage":"Ich habe ein Verständnis von Quality of Service (QoS) in Netzwerken.",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Core-Switching",
     "aussage":"Ich habe ein gutes Verständnis der Funktionsweise von Switches.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1223,6 +1461,13 @@
     "aussage":"Ich habe ein gutes Verständnis der Funktionsweise von Switches.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Core-Switching",
+    "aussage":"Ich habe ein gutes Verständnis der Funktionsweise von Switches.",
+    "mitarbeiter":"F",
+    "score":3.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1262,6 +1507,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Core-Switching",
+    "aussage":"Ich kann Switchports sicher als Access- oder Trunk-Ports konfigurieren.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Core-Switching",
     "aussage":"Ich kenne die Funktionsweise des Spanning Tree Protocol (STP).",
     "mitarbeiter":"A",
     "score":4.0
@@ -1293,6 +1545,13 @@
     "aussage":"Ich kenne die Funktionsweise des Spanning Tree Protocol (STP).",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Core-Switching",
+    "aussage":"Ich kenne die Funktionsweise des Spanning Tree Protocol (STP).",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1332,6 +1591,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Core-Switching",
+    "aussage":"Ich kenne und verstehe Link Aggregation (z. B. LACP).",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Core-Switching",
     "aussage":"Ich verstehe VLAN-Konzepte gut und kann VLANs sicher konfigurieren.",
     "mitarbeiter":"A",
     "score":3.0
@@ -1366,6 +1632,13 @@
   },
   {
     "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Core-Switching",
+    "aussage":"Ich verstehe VLAN-Konzepte gut und kann VLANs sicher konfigurieren.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Firewall & Routing",
     "aussage":"Ich fühle mich sicher im Netzwerk-Troubleshooting.",
     "mitarbeiter":"A",
@@ -1398,6 +1671,13 @@
     "aussage":"Ich fühle mich sicher im Netzwerk-Troubleshooting.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich fühle mich sicher im Netzwerk-Troubleshooting.",
+    "mitarbeiter":"F",
+    "score":3.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1437,6 +1717,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich kann Firewall-Logs finden und interpretieren.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
     "aussage":"Ich kann Firewall-Regeln sicher erstellen und anwenden.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1468,6 +1755,13 @@
     "aussage":"Ich kann Firewall-Regeln sicher erstellen und anwenden.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich kann Firewall-Regeln sicher erstellen und anwenden.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1507,6 +1801,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich kenne den Unterschied zwischen stateful und stateless Firewalls.",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
     "aussage":"Ich kenne den Unterschied zwischen statischem und dynamischem Routing.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1538,6 +1839,13 @@
     "aussage":"Ich kenne den Unterschied zwischen statischem und dynamischem Routing.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich kenne den Unterschied zwischen statischem und dynamischem Routing.",
+    "mitarbeiter":"F",
+    "score":1.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1577,6 +1885,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich kenne grob den Unterschied zwischen Routing-Protokollen wie OSPF oder BGP.",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
     "aussage":"Ich verstehe Zonenmodelle, Ports und Protokolle im Firewall-Kontext.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1608,6 +1923,13 @@
     "aussage":"Ich verstehe Zonenmodelle, Ports und Protokolle im Firewall-Kontext.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich verstehe Zonenmodelle, Ports und Protokolle im Firewall-Kontext.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1647,6 +1969,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich verstehe die Grundlagen des IP-Routings.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
     "aussage":"Ich weiß, wie Netzwerke untereinander geroutet werden.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1681,6 +2010,13 @@
   },
   {
     "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"Firewall & Routing",
+    "aussage":"Ich weiß, wie Netzwerke untereinander geroutet werden.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
     "unterkategorie":"VPN",
     "aussage":"Ich fühle mich sicher im VPN-Troubleshooting.",
     "mitarbeiter":"A",
@@ -1713,6 +2049,13 @@
     "aussage":"Ich fühle mich sicher im VPN-Troubleshooting.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"VPN",
+    "aussage":"Ich fühle mich sicher im VPN-Troubleshooting.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1752,6 +2095,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"VPN",
+    "aussage":"Ich kann VPN-Clients sicher konfigurieren.",
+    "mitarbeiter":"F",
+    "score":4.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"VPN",
     "aussage":"Ich kann Zertifikate im VPN-Umfeld verwalten.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1783,6 +2133,13 @@
     "aussage":"Ich kann Zertifikate im VPN-Umfeld verwalten.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"VPN",
+    "aussage":"Ich kann Zertifikate im VPN-Umfeld verwalten.",
+    "mitarbeiter":"F",
+    "score":1.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1822,6 +2179,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"VPN",
+    "aussage":"Ich kenne Authentifizierungsmethoden und Sicherheitsaspekte im VPN-Umfeld.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"VPN",
     "aussage":"Ich kenne Tunnelprotokolle wie GRE oder L2TP.",
     "mitarbeiter":"A",
     "score":4.0
@@ -1853,6 +2217,13 @@
     "aussage":"Ich kenne Tunnelprotokolle wie GRE oder L2TP.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"VPN",
+    "aussage":"Ich kenne Tunnelprotokolle wie GRE oder L2TP.",
+    "mitarbeiter":"F",
+    "score":2.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1892,6 +2263,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"VPN",
+    "aussage":"Ich kenne die grundlegenden Unterschiede zwischen VPN-Typen (IPsec, SSL-VPN, Site-to-Site, Client-VPN).",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"VPN",
     "aussage":"Ich verstehe den Aufbau von EduVPN.",
     "mitarbeiter":"A",
     "score":1.0
@@ -1926,6 +2304,13 @@
   },
   {
     "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"VPN",
+    "aussage":"Ich verstehe den Aufbau von EduVPN.",
+    "mitarbeiter":"F",
+    "score":1.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
     "unterkategorie":"WLAN",
     "aussage":"Ich kann Access Points sicher konfigurieren.",
     "mitarbeiter":"A",
@@ -1958,6 +2343,13 @@
     "aussage":"Ich kann Access Points sicher konfigurieren.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"WLAN",
+    "aussage":"Ich kann Access Points sicher konfigurieren.",
+    "mitarbeiter":"F",
+    "score":4.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -1997,6 +2389,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"WLAN",
+    "aussage":"Ich kann WLAN-Störungen erkennen und damit umgehen.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"WLAN",
     "aussage":"Ich kann Zertifikatsmanagement im WLAN-Umfeld umsetzen.",
     "mitarbeiter":"A",
     "score":4.0
@@ -2032,6 +2431,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"WLAN",
+    "aussage":"Ich kann Zertifikatsmanagement im WLAN-Umfeld umsetzen.",
+    "mitarbeiter":"F",
+    "score":2.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"WLAN",
     "aussage":"Ich kenne WLAN-Verschlüsselungsstandards wie WPA2 und WPA3.",
     "mitarbeiter":"A",
     "score":5.0
@@ -2063,6 +2469,13 @@
     "aussage":"Ich kenne WLAN-Verschlüsselungsstandards wie WPA2 und WPA3.",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"WLAN",
+    "aussage":"Ich kenne WLAN-Verschlüsselungsstandards wie WPA2 und WPA3.",
+    "mitarbeiter":"F",
+    "score":4.0
   },
   {
     "kompetenzfeld":"Netzwerk",
@@ -2102,6 +2515,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"WLAN",
+    "aussage":"Ich kenne das Roaming-Verhalten von WLAN-Clients.",
+    "mitarbeiter":"F",
+    "score":3.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"WLAN",
     "aussage":"Ich verstehe Kanalplanung und Frequenzbereiche.",
     "mitarbeiter":"A",
     "score":5.0
@@ -2137,6 +2557,13 @@
   {
     "kompetenzfeld":"Netzwerk",
     "unterkategorie":"WLAN",
+    "aussage":"Ich verstehe Kanalplanung und Frequenzbereiche.",
+    "mitarbeiter":"F",
+    "score":4.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"WLAN",
     "aussage":"Ich verstehe, wie ein WLAN-Netzwerk aufgebaut ist (z. B. SSIDs, Access Points).",
     "mitarbeiter":"A",
     "score":5.0
@@ -2168,5 +2595,12 @@
     "aussage":"Ich verstehe, wie ein WLAN-Netzwerk aufgebaut ist (z. B. SSIDs, Access Points).",
     "mitarbeiter":"E",
     "score":5.0
+  },
+  {
+    "kompetenzfeld":"Netzwerk",
+    "unterkategorie":"WLAN",
+    "aussage":"Ich verstehe, wie ein WLAN-Netzwerk aufgebaut ist (z. B. SSIDs, Access Points).",
+    "mitarbeiter":"F",
+    "score":3.0
   }
 ]
